@@ -1,0 +1,38 @@
+.btn-styles {
+  border: 1px solid blue;
+  background-color: aqua;
+}
+
+.searcher-container {
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+#img {
+  margin: 0 20px;
+}
+
+.data-typography-styles {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Here starts stars code: */
+
+body {
+  margin: 0;
+  background-color: #17182f;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

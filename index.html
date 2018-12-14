@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buscador de StarWars</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body id="particles-js">
+    <main>
+        <audio id="myAudio">
+            <source src="music/starwars_theme.mp3" type="audio/mpeg">
+        </audio>
+        <div class="searcher-container">
+            <div>
+                <label for="input"></label>
+                <input class="input-styles" id="character" name="input" type="text">
+                <select name="list" id="list">
+                    <option value="films">Films</option>
+                    <option value="people">People</option>
+                    <option value="planets">Planets</option>
+                    <option value="species">Species</option>
+                    <option value="starships">Starships</option>
+                    <option value="vehicles">Vehicles</option>
+                </select>
+                <button class="btn-styles" id="btn" type="submit" onclick="playAudio()">Buscar</button>
+                <div class="data-typography-styles">
+                    <ul id="data"></ul>
+                </div>
+            </div>
+            <img src="images/character1.gif" alt="" id="img" width="200" height="180">
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
